@@ -6,3 +6,5 @@ TypeORM - Works with different SQL databases
 
 Install TypeORM library
 * npm i @nestjs/typeorm typeorm sqlite3
+
+Migration 
