@@ -9,6 +9,7 @@ import { Report } from './reports/reports.entity';
 
 @Module({
   imports: [
+    // This specifies which ORM will be using for the project
     TypeOrmModule.forRoot({
       type: 'sqlite',
       database: 'db.sqlite',
